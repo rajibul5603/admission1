@@ -94,10 +94,10 @@ class ApplicationController extends Controller
         $age = $interval->format("%Y");
         
         
-
+        // 1= Admissin 2= Medical 
         $appNo = $ay . $cirID . $grantsType . $divID . $distID . $upaID . $eiinNO . $todayRand;
-        //2020 01 1 2 01 001 105691 A210806 13 08 33 35
-        
+        //20 01 1 02 01 001 105691 210806 13 08 33 35
+         
         //return $appNo;
 
         $generalInfo =  new GeneralInfo([
