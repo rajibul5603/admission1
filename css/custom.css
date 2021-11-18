@@ -1,0 +1,166 @@
+@import url("https://fonts.maateen.me/solaiman-lipi/font.css");
+@import url("https://fonts.maateen.me/charukola-ultra-light/font.css");
+
+body,
+#images,
+#images a {
+    font-family: "NikoshBAN", "SolaimanLipi", "Indie Flower", cursive;
+}
+.navbar {
+    background-color: #159397;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.nav-item > .active > .nav-link {
+    color: #fff;
+}
+
+.form-control,
+.select2,
+.select2-container--default,
+.select2-selection--single,
+.select2-selection__rendered {
+    display: block;
+    width: 100%;
+    font-size: 17px;
+    color: #0624c9 !important;
+    height: calc(2rem + 2px) !important;
+}
+
+.ck-editor__editable,
+textarea {
+    min-height: 150px;
+}
+
+.datatable {
+    width: 100% !important;
+}
+
+table.dataTable tbody td.select-checkbox::before,
+table.dataTable tbody td.select-checkbox::after,
+table.dataTable tbody th.select-checkbox::before,
+table.dataTable tbody th.select-checkbox::after {
+    top: 50%;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dt-buttons {
+    margin-bottom: 0.333em;
+}
+
+.dt-buttons .btn {
+    margin-left: 0.333em;
+    border-radius: 0;
+}
+
+.table.datatable {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 2px solid #f4f4f4;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background-image: none;
+}
+
+.select2 {
+    max-width: 100%;
+    width: 100%;
+}
+
+.searchable-title {
+    font-weight: bold;
+}
+
+.searchable-fields {
+    padding-left: 5px;
+}
+
+.searchable-link {
+    padding: 0 5px 0 5px;
+}
+
+.searchable-link:hover {
+    cursor: pointer;
+    background: #eaeaea;
+}
+
+.select2-results__option {
+    padding-left: 10px;
+    padding-right: 5px;
+
+    font-weight: bolder;
+    color: green;
+}
+
+.form-group .required::after {
+    content: " *";
+    color: red;
+}
+
+/* my coding for dashboard  */
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.dash-widget-icon {
+    background-color: rgba(244, 59, 72, 0.2);
+    border-radius: 100%;
+    color: #f43b48;
+    display: inline-block;
+    float: left;
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 10px;
+    text-align: center;
+    width: 60px;
+}
+
+.dash-widget-info {
+    text-align: right;
+}
+
+.card {
+    border: 1px solid #ededed;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.card-title {
+    color: #1f1f1f;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #2a1562;
+    color: white;
+}
+
+.card-footer {
+    background-color: #fff;
+}
+
+label {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
