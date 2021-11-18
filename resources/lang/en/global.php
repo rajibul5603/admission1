@@ -220,6 +220,7 @@ return [
     'main_currency'                  => 'Main currency',
     'message'                        => 'Message',
     'name'                           => 'Name',
+    'guardian_name'                  => 'guardian_name',
     'new_calendar_source'            => 'Create new calendar source',
     'new_password'                   => 'New password',
     'no_calendar_sources'            => 'No calendar sources yet.',
